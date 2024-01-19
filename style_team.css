@@ -1,0 +1,425 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* <!-- En tete --> */
+
+header{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 20px;
+    padding-left: 20px;
+    border-top: 1px solid rgba(255, 255, 255, 0.171);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.171);
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.925);
+}
+
+header.sticky{
+    background: white;
+}
+
+.conteneur_element_header{
+    display: flex;
+    align-items: center;
+}
+
+/* <!-- Le logo --> */
+.logo{
+    font-weight: 700;
+    font-size: 40px;
+    color: white;
+}
+
+.rick{
+    color: rgb(231, 130, 14);
+}
+
+/* <!-- Le MENU --> */
+ul{
+    display: flex;
+    list-style: none;
+   margin-left: 520px;
+}
+
+a{
+    text-decoration: none;
+    margin-right: 30px;
+    font-weight: 700;
+    color: rgba(255, 255, 255, 0.849);
+}
+
+a:hover{
+    text-decoration: line;
+    color: rgb(231, 130, 14);
+}
+
+a:active{
+    text-decoration: line;
+    color: rgb(231, 130, 14);
+}
+
+
+    /* <!-- barre de recherche --> */
+.barre_de_recherche{
+    display: flex;
+    align-items: center;
+    margin-left: 370px;
+}
+
+.search{
+    font-weight: 700;
+    margin-left: 20px;
+    color: white;
+}
+
+/* <!-- bouton contact us --> */
+.bouton_contact_us{
+    background-color: rgb(231, 130, 14);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 20px;
+}
+
+.contact_us{
+    text-align: center;
+    color: white;
+    font-weight: 700;
+}
+
+
+
+
+/* section membres */
+
+.section_membre{
+    height: 200px;
+    background-image: url("image/smartwatch.jpg");
+    background-size: cover;
+    padding-top: 200px;
+}
+
+
+
+.titre_membre{
+    font-size: 40px;
+    font-weight: 400;
+    text-align: center;
+    color: white;
+}
+
+.home_member{
+    display: flex;
+    justify-content: center;
+}
+.home{
+    font-size: 13px;
+    opacity: 70%;
+    font-weight: 200;
+}
+.members{
+    margin-left: -25px;
+    margin-top: -3px;
+    font-weight: 200;
+    color: white;
+    font-weight: 400;
+}
+
+
+/* section profils */
+
+.profils_membres{
+    display: grid;
+    grid-template-columns: 300px 300px 300px 300px;
+    justify-content: center;
+    gap: 20px;
+    padding-top: 80px;
+    padding-bottom: 100px;
+    
+}
+
+.conteneur_profil_membres{
+    width: 290px;
+    margin-top: 10px;
+    box-shadow: 0px 1px 4px 4px rgba(161, 158, 158, 0.068);
+}
+
+
+.photo_profil{
+    height: 200px;
+    width: 200px;
+    border-radius: 100px;
+    background-image: url("image/profil_Rick.jpg");
+    background-size: cover;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    margin-top: 40px;
+    
+}
+
+
+
+.nom{
+    color: black;
+    font-size: 17px;
+    font-weight: 700;
+    margin-left: 90px;
+
+}
+        /* 2 */
+#cyndie{
+    background-image: url("image/cyndie.jpg");
+}
+#cyndie_nom{
+    margin-left: 60px;
+}
+
+        /* 3 */
+#jule_bertant{
+    background-image: url("image/jule\ bertant.jpg");
+}
+#jule_bertant_nom{
+    margin-left: 95px;
+}
+#jule_bertant_post{
+    margin-left: 100px;
+}
+
+        /* 4 */
+#rose_marie{
+    background-image: url("image/rose\ marie.jpg");
+}
+#rose_marie_nom{
+    margin-left: 100px;
+}
+#rose_marie_post{
+    margin-left: 110px;
+}
+
+        /* 5 */
+#luc_john{
+    background-image: url("image/anne\ suzane.jpg");
+}
+#luc_john_nom{
+    margin-left: 112px;
+}
+#luc_john_post{
+    margin-left: 110px;
+}
+
+        /* 6 */
+#franck_bill{
+    background-image: url("image/franck\ bill.jpg");
+}
+#franck_bill_nom{
+    margin-left: 100px;
+}
+#franck_bill_post{
+    margin-left: 105px;
+}
+
+        /* 7 */
+#jullie_belle{
+    background-image: url("image/julie.jpg");
+}
+#jullie_belle_nom{
+    margin-left: 100px;
+}
+#jullie_belle_post{
+    margin-left: 110px;
+}
+
+        /* 7 */
+#willy_armel{
+    background-image: url("image/willy.jpg");
+}
+#willy_armel_nom{
+    margin-left: 100px;
+}
+#willy_armel_post{
+    margin-left: 115px;
+}
+
+
+
+.post{
+    color: rgba(0, 0, 0, 0.37);
+    font-size: 15px;
+    font-weight: 500;
+    margin-left: 120px;
+}
+
+.description{
+    font-size: 15px;
+    text-align: center;
+    opacity: 70%;
+    margin-bottom: 5px;
+}
+
+#desc{
+    margin-top: 30px;
+}
+
+.reseaux{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+
+
+/* section le_footer */
+
+.conteneur_du_footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.932);
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 50px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.164);
+}
+
+.partie_contat{
+    margin-right: 50px;
+   
+}
+
+#logo_footer{
+    font-size: 33px;
+}
+
+.this_site{
+    font-size: 13px;
+    opacity: 50%;
+    color: white;
+}
+
+.contact{
+    margin-top: 15px;
+    margin-bottom: 5px;
+    color: white;
+}
+
+.info_contact{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+
+}
+
+.libelet{
+    color: white;
+}
+
+.infos{
+    color: white;
+    font-weight: 500;
+    font-size: 13px;
+     opacity: 50%;
+}
+
+.phone_call_us{
+    margin-top: 20px;
+}
+
+.phone_call_us{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.call_us_now{
+    color: white;
+    opacity: 50%;
+    font-weight: 500;
+    font-size: 15px;
+}
+
+.le_numero{
+    color: white;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+/* partie_customer */
+
+.partie_customer{
+    margin-right: 150px;
+}
+
+.partie_company{
+    margin-right: 150px;
+}
+
+.titre_partie_footer{
+    margin-bottom: 10px;
+    margin-top: 20px;
+    color: white;
+}
+
+.liens_partie_customer{
+    color: white;
+    font-weight: 500;
+    font-size: 15px;
+    opacity: 50%;
+}
+
+.liens_customer{
+    margin-bottom: 10px;
+    color: white;
+}
+
+.maps_world{
+    width: 280px;
+    height: 170px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.conteneur_icone_rs{
+    display: flex;
+    align-items: center;
+
+}
+
+.icone_rs{
+    height: 35px;
+    width: 35px;
+    border-radius: 20px;
+    background-color: rgb(87, 97, 107);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.rs{
+    height: 15px;
+}
+
+.partie_copyrights{
+    background-color: rgba(0, 0, 0, 0.932);
+    padding-top: 30px;
+    padding-bottom: 30px
+    ;
+
+}
+
+.copyright{
+    text-align: center;
+    opacity: 50%;
+    color: white;
+}

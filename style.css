@@ -1,0 +1,1117 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* <!-- En tete --> */
+
+header{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 20px;
+    padding-left: 20px;
+    border-top: 1px solid rgba(255, 255, 255, 0.171);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.171);
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.925);
+}
+
+header.sticky{
+    background: white;
+}
+
+.conteneur_element_header{
+    display: flex;
+    align-items: center;
+}
+
+/* <!-- Le logo --> */
+.logo{
+    font-weight: 700;
+    font-size: 40px;
+    color: white;
+}
+
+.rick{
+    color: rgb(231, 130, 14);
+}
+
+/* <!-- Le MENU --> */
+ul{
+    display: flex;
+    list-style: none;
+   margin-left: 520px;
+}
+
+a{
+    text-decoration: none;
+    margin-right: 30px;
+    font-weight: 700;
+    color: rgba(255, 255, 255, 0.849);
+}
+
+a:hover{
+    text-decoration: line;
+    color: rgb(231, 130, 14);
+}
+
+a:active{
+    text-decoration: line;
+    color: rgb(231, 130, 14);
+}
+
+    /* <!-- barre de recherche --> */
+.barre_de_recherche{
+    display: flex;
+    align-items: center;
+    margin-left: 370px;
+}
+
+.search{
+    font-weight: 700;
+    margin-left: 20px;
+    color: white;
+}
+
+/* <!-- bouton contact us --> */
+.bouton_contact_us{
+    background-color: rgb(231, 130, 14);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 20px;
+}
+
+.contact_us{
+    text-align: center;
+    color: white;
+    font-weight: 700;
+}
+
+/* <!-- section_image_acceuil --> */
+
+.conteneur_element_acceuil{
+    padding-top: 200px;
+}
+
+/* texte et contenue de la section */
+
+.section_acceuil{
+    background-image: url("image/fond.jpg");
+    background-size: cover;
+    height: 900px;
+    padding-left: 260px;
+    padding-top: 120px;
+}
+
+.welcome{
+    font-weight: 700;
+    color: white;
+}
+
+.join{
+    font-weight: 650;
+    font-size: 55px;
+    color: white;
+}
+.nombre{
+    color: rgb(231, 130, 14);
+    font-size: 75px;
+}
+
+.customers{
+    font-weight: 650;
+    font-size: 55px;
+    margin-top: -30px;
+    color: white;
+}
+
+.offering{
+    font-weight: 700;
+    margin-bottom: 40px;
+    color: white;
+}
+
+.bouton_view{
+    background-color: rgb(231, 130, 14);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 5px;
+    width: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.view{
+    margin-right: 10px;
+    font-weight: 700;
+    color: white;
+}
+
+
+/* <!-- section_2 --> */
+
+.deuxieme_section{
+    padding-bottom: 100px;
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    z-index: 2;
+    margin-top: -70px;
+}
+
+/* <!-- conteneur des 3 boites --> */
+.data{
+    width: 410px;
+    height: 330px;
+    border-radius: 10px;
+    box-shadow: 0px 2px 2px 2px rgba(161, 158, 158, 0.164);
+    background-color: white;
+}
+
+/* <!-- icones des 3 boites --> */
+.image_database{
+   height: 65px;
+   margin-left: -6px;
+   margin-top: 40px;
+   margin-left: 20px;
+   opacity: 50%;
+}
+/* <!-- textes des 3 boites --> */
+.database{
+    font-weight: 600;
+    font-size: 17px;
+    margin-bottom: 10px;
+    margin-top: 15px;
+    margin-left: 30px;
+}
+
+.UDesign{
+    font-weight: 500;
+    font-size: 15px;
+    margin-bottom: 5px;
+    margin-left: 30px;
+    opacity: 50%;
+}
+
+.and_it{
+    font-weight: 500;
+    font-size: 15px;
+    margin-bottom: 5px;
+    margin-left: 30px;
+    opacity: 50%;
+}
+
+.back{
+    font-weight: 500;
+    font-size: 15px;
+    margin-bottom: 5px;
+    margin-left: 30px;
+    opacity: 50%;
+}
+
+.read{
+    color: black;
+    font-size: 15px;
+    text-decoration: solid;
+    margin-left: 30px;
+    border-bottom: 3px solid black;
+}
+
+/* troixieme section */
+
+.troixieme_section{
+    display: flex;
+    gap: 200px;
+   justify-content: center;
+}
+
+/* partie_texte */
+.features{
+    font-weight: 500;
+    font-size: 17px;
+    opacity: 60%;
+    margin-bottom: 10px;
+}
+
+.create_et_website{
+    font-size: 35px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.petit_texte{
+    font-weight: 500;
+    font-size: 15px;
+    opacity: 60%;
+    margin-bottom: 5px;
+}
+
+.bouton_view_deuxieme{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border: 2px solid black;
+    border-radius: 3px;
+    width: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+    
+}
+.bouton_view_deuxieme:hover{
+    background-color: rgba(0, 0, 0, 0.788);
+}
+
+.view_deuxieme{
+    color: black;
+    margin-right: 10px;
+}
+.view_deuxieme:hover{
+    color: white;
+}
+
+
+/* image */
+.dame{
+    height: 340px;
+    width: 400px;
+}
+
+/* <!-- section recrutrement --> */
+
+.recrutement{
+    margin-top: 100px;
+}
+
+.steps_et_process{
+    font-size: 35px;
+    font-weight: 600;
+    text-align: center;
+}
+
+#process{
+    margin-top: -10px;
+    margin-bottom: 10px;
+}
+
+.we_can_et_people{
+    font-weight: 500;
+    font-size: 17px;
+    opacity: 60%;
+    text-align: center;
+}
+
+/* specialités */
+
+.specialite{
+    width: 250px;
+    justify-content: center;
+}
+
+.conteneur_specialite{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    
+}
+
+.cercle{
+    height: 120px;
+    width: 120px;
+    border-radius: 65px;
+    box-shadow: 0px 1px 4px 4px rgba(161, 158, 158, 0.164);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 40px;
+}
+.numero{
+    font-size: 35px;
+    font-weight: 600;
+    color: rgb(231, 130, 14);
+}
+
+.titre_specialite{
+    font-weight: 600;
+    font-size: 17px;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.detail{
+    font-size: 13px;
+    opacity: 60%;
+    text-align: center;
+}
+
+.separateur{
+    height: 2px;
+    opacity: 10%;
+    margin-top: 60px;
+    margin-left: -10px;
+}
+
+#online_application{
+    margin-left: auto;
+    margin-right: auto; padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 3px;
+    width: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+}
+#texte_online{
+    font-size: 15px;
+    font-weight: 600;
+}
+
+/* section3 what we do */
+
+.section_what_we_do{
+    margin-top: 120px;
+    margin-bottom: 80px;
+}
+
+.conteneur_section_what{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.equipe_work{
+    width: 700px;
+    height: 550px;
+    
+}
+
+.conteneur_texte_what{
+    height: 450px;
+    width: 600px;
+    background-color: white;
+    box-shadow: 0px 1px 4px 4px rgba(161, 158, 158, 0.164);
+    margin-left: -80px;
+    
+}
+
+.what{
+    font-weight: 500;
+    font-size: 17px;
+    color: rgb(231, 130, 14);
+    text-align: center;
+    margin-top: 70px;
+}
+
+.need_count{
+    font-weight: 600;
+    font-size: 30px;
+    text-align: center;
+}
+
+.texte_en_petit{
+    font-size: 13px;
+    opacity: 60%;
+    text-align: center;
+}
+#we_create{
+    margin-top: 30px;
+}
+
+.bouton_view_troisieme{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border: 2px solid black;
+    border-radius: 3px;
+    width: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.view_troiseme{
+    color: black;
+    margin-right: 10px;
+}
+
+/* section ofrre  */
+
+.offre{
+    background-color: rgba(224, 224, 224, 0.425);
+    padding-top: 90px;
+    padding-bottom: 80px;
+}
+
+.predictable{
+    font-size: 18px;
+    font-weight: 500;
+    text-align: center;
+    opacity: 50%;
+}
+
+.titre_forfait{
+    margin-bottom: 40px;
+}
+
+.choose_your{
+    font-size: 35px;
+    font-weight: 600;
+    text-align: center;
+}
+
+/* section forfait  */
+.forfait{
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+}
+/* -------------------------------------------------------------- */
+.en_tete_forfait{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 140px;
+    width: 390px;
+    background-color: rgba(0, 0, 0, 0.774);
+    border-radius: 10px 10px 0px 0px;
+}
+
+.devise{
+    font-weight: 700;
+    font-size: 35px;
+    margin-top: -20px;
+    color: white;
+}
+
+.montant{
+    font-weight: 700;
+    font-size: 60px;
+    color: white;
+}
+
+.duree{
+    font-weight: 700;
+   margin-top: 30px;
+   color: white;
+}
+
+.conteneur_detail{
+    box-shadow: 0px 1px 4px 4px rgba(161, 158, 158, 0.164);
+    height: 320px;
+    padding-top: 30px;
+    border-radius: 0px 0px 10px 10px;
+}
+
+#forfait_du_milieu{
+    background-color: rgb(255, 136, 0);
+}
+
+.basic{
+    text-align: center;
+    font-weight: 500;
+    color: rgb(255, 136, 0);
+    margin-bottom: 15px;
+}
+
+.stater{
+    font-weight: 700;
+    font-size: 20px;
+    text-align: center;
+    margin-top: -10px;
+    margin-bottom: 20px;
+}
+
+.texte_gris{
+    text-align: center;
+    color: rgba(0, 0, 0, 0.678);
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+
+.bouton_purchase{
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    height: 30px;
+    width: 160px;
+    margin-top: 30px;
+}
+
+.purchase{
+    margin-right: 10px;
+    font-weight: 700;
+
+}
+
+
+/* section portfolio */
+
+ /* titre de la section */
+.features{
+    text-align: center;
+    font-size: 19px;
+    opacity: 50%;
+    margin-top: 100px;
+}
+
+.best{
+    text-align: center;
+    font-weight: 600;
+    font-size: 35px;
+}
+
+/* contenue de la section */
+
+.conteneur_portfolio{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin: 30px;
+}
+
+.element_portfolion{
+    width: 280px;
+    height: 190px;
+    border-radius: 10px;
+    /* padding-top: 60px; */
+
+}
+
+.loupe_bouton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 140px;
+    height: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+    gap: 40px;
+    opacity: 0%;
+}
+.loupe_bouton:hover {
+    opacity: 100%;
+}
+
+.teexte_en_dessous{
+    font-size: 22px;
+    text-align: center;
+    margin-top: 20px;
+    color: white;
+    opacity: 0%;
+}
+.teexte_en_dessous:hover {
+    opacity: 100%;
+}
+
+#elit{
+    margin-top: -1px;
+}
+
+#phone{
+    background-image: url(image/phone.jpg);
+    background-size: cover;
+}
+
+#smartwatch{
+    background-image: url(image/smartwatch.jpg);
+    background-size: cover;
+}
+
+#carte{
+    background-image: url(image/carte.jpg);
+    background-size: cover;
+}
+
+#mockup{
+    background-image: url(image/mockup.jpg);
+    background-size: cover;
+}
+
+#view_all{
+    width: 140px;
+    margin-top: 10px;
+}
+
+/* section avis */
+
+/* en tete de la section avis */
+.chiffre{
+    text-align: center;
+    font-size: 16px;
+    margin-top: 70px;
+    font-weight: 500;
+    color: rgba(0, 0, 0, 0.521);
+}
+.cinquante_mill{
+    color: rgb(255, 136, 0);
+}
+
+.see{
+    text-align: center;
+    font-weight: 600;
+    font-size: 35px;
+    margin-bottom: 15px;
+}
+
+.udesign{
+    text-align: center;
+    font-size: 15px;
+    opacity: 50%;
+}
+
+
+/* avis et note */
+
+.tous_les_avis{
+    display: flex;
+    justify-content: center;
+    gap: 35px;
+    margin-top: 100px;
+}
+
+.photo{
+    height: 130px;
+    width: 130px;
+    border-radius: 70px;
+    background-image: url(image/profil_femme_1.jpg);
+    background-size: cover;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+}
+#premiere_photo{
+    background-image: url(image/profil_homme.jpg);
+}
+#troisieme_photo{
+    background-image: url(image/prfil_femme_2.jpg);
+}
+
+.avis_client{
+    text-align: center;
+    font-size: 15px;
+    opacity: 50%;
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+
+.note{
+    text-align: center;
+    margin-top: 20px;
+}
+
+.nom{
+    text-align: center;
+    font-weight: 600;
+}
+
+.profession{
+    text-align: center;
+    font-size: 13px;
+    opacity: 50%;
+}
+
+.chaque_avis{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 35px;
+    padding-right: 35px;
+    border-radius: 10px;
+    box-shadow: 0px 1px 4px 4px rgba(161, 158, 158, 0.062);
+    margin-bottom: 100px;
+}
+
+/* section blog */
+
+.article{
+    padding-bottom: 100px;
+    padding-top: 70px;
+    background-color: rgba(124, 124, 145, 0.055);
+}
+
+.du_blog{
+    font-size: 18px;
+    font-weight: 500;
+    opacity: 50%;
+    margin-left: 345px;
+}
+
+.article_populaire{
+    font-size: 38px;
+    font-weight: 600;
+    margin-left: 345px;
+    margin-bottom: 30px;
+}
+
+.conteneur_chaque_article{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+/* conteneur_chaque_article */
+
+/* chaque_article */
+.chaque_article{
+    box-shadow: 0px 1px 4px 4px rgba(161, 158, 158, 0.068);
+    border-radius: 0px 0px 5px 5px;
+}
+
+.image_article{
+    height: 200px;
+    width: 390px;
+    border-radius: 5px 5px 0px 0px;
+    background-image: url(image/men.jpg);
+    background-size: cover;
+}
+
+#image_article2{
+    height: 200px;
+    width: 390px;
+    border-radius: 5px 5px 0px 0px;
+    background-image: url(image/voiture.jpg);
+    background-size: cover;
+}
+
+.detail_de_larticle{
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.date{
+   font-size: 15px;
+    opacity: 50%;
+    margin-top: 30px;
+}
+
+.titre_article{
+    font-weight: 600;
+    font-size: 17px;
+    margin-bottom: 20px;
+}
+
+.contenue_de_larticle{
+    font-size: 15px;
+    opacity: 70%;
+    margin-bottom: 5px;
+}
+
+.auteur{
+    display: flex;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.nom_auteur{
+    font-size: 15px;
+    margin-right: 220px;
+}
+
+.nombre_de_commentaire{
+    margin-left: 5px;
+}
+
+/* article recent */
+
+.article_recent{
+    font-weight: 600;
+    font-size: 25px;
+    margin-bottom: 25px;
+}
+
+.chaque_article_de_la_liste{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    margin-bottom: 30px;
+}
+
+.image_chaque_article_de_la_liste{
+    height: 85px;
+    width: 140px;
+   background-image: url(image/men.jpg);
+   background-size: cover;
+}
+
+#deuxieme_article_de_la_liste{
+    background-image: url(image/voiture.jpg);
+}
+
+#troisieme_article_de_la_liste{
+    background-image: url(image/ville.jpg);
+}
+
+
+.date_chaque_article_de_la_liste{
+    font-weight: 500;
+    font-size: 13px;
+    opacity: 50%;
+    margin-bottom: 5px;
+}
+
+.titre_article_chaque_article_de_la_liste{
+    font-weight: 600;
+     margin-bottom: 5px;
+}
+
+.nom_auteur_chaque_article_de_la_liste{
+    font-weight: 500;
+    font-size: 13px;
+    opacity: 50%;
+}
+
+.bouton_view_article_de_la_liste{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 30px;
+    padding-right: 30px;
+    background-color: rgb(255, 136, 0);
+    border-radius: 3px;
+    width: 130px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.view_troiseme_article_de_la_liste{
+    margin-right: 10px;
+    font-size: 15px;
+    color: white;
+    font-weight: 600;
+}
+
+/* Footer */
+.newsletter{
+  background-image: url(image/bubbles.jpg);
+  background-size: cover;
+}
+
+.conteneur_new_letter{
+    padding-top: 70px;
+   padding-bottom: 90px;
+   background-color: rgba(0, 0, 0, 0.849);
+}
+
+.suscribe{
+    font-size: 35px;
+    font-weight: 700;
+    text-align: center;
+    color: white;
+}
+
+.follow{
+    font-size: 20px;
+    font-weight: 500;
+    text-align: center;
+    opacity: 50%;
+    color: white;
+}
+
+.champ_de_saisie{
+    display: flex;
+    align-items: center;
+    border: 1px solid rgba(255, 255, 255, 0.253);
+    width: 660px;
+    height: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 5px;
+    margin-top: 30px;
+}
+
+input{
+    border: none;
+    margin-right: 310px;
+    margin-left: 20px;
+
+}
+
+.bouton_subscribe{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: rgb(255, 255, 255);
+}
+.bouton_subscribe:hover{
+    color: rgb(255, 136, 0);
+}
+
+
+.suscribe_champ_de_saisie{
+    color: white;
+}
+
+.flech_test{
+    font-weight: bold;
+    font-size: 20px;
+}
+
+/* section le_footer */
+
+.conteneur_du_footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.932);
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 50px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.164);
+}
+
+.partie_contat{
+    margin-right: 50px;
+   
+}
+
+#logo_footer{
+    font-size: 33px;
+}
+
+.this_site{
+    font-size: 13px;
+    opacity: 50%;
+    color: white;
+}
+
+.contact{
+    margin-top: 15px;
+    margin-bottom: 5px;
+    color: white;
+}
+
+.info_contact{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+
+}
+
+.libelet{
+    color: white;
+}
+
+.infos{
+    color: white;
+    font-weight: 500;
+    font-size: 13px;
+     opacity: 50%;
+}
+
+.phone_call_us{
+    margin-top: 20px;
+}
+
+.phone_call_us{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.call_us_now{
+    color: white;
+    opacity: 50%;
+    font-weight: 500;
+    font-size: 15px;
+}
+
+.le_numero{
+    color: white;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+/* partie_customer */
+
+.partie_customer{
+    margin-right: 150px;
+}
+
+.partie_company{
+    margin-right: 150px;
+}
+
+.titre_partie_footer{
+    margin-bottom: 10px;
+    margin-top: 20px;
+    color: white;
+}
+
+.liens_partie_customer{
+    color: white;
+    font-weight: 500;
+    font-size: 15px;
+    opacity: 50%;
+}
+
+.liens_customer{
+    margin-bottom: 10px;
+    color: white;
+}
+
+.maps_world{
+    width: 280px;
+    height: 170px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.conteneur_icone_rs{
+    display: flex;
+    align-items: center;
+
+}
+
+.icone_rs{
+    height: 35px;
+    width: 35px;
+    border-radius: 20px;
+    background-color: rgb(87, 97, 107);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.rs{
+    height: 15px;
+}
+
+.partie_copyrights{
+    background-color: rgba(0, 0, 0, 0.932);
+    padding-top: 30px;
+    padding-bottom: 30px
+    ;
+
+}
+
+.copyright{
+    text-align: center;
+    opacity: 50%;
+    color: white;
+}
